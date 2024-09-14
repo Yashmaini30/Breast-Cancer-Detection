@@ -1,2 +1,5 @@
 # Breast-Cancer-Detection
-To be updated 
+
+## ABSTRACT
+
+Breast tumor classification plays a crucial role in early detection and treatment planning for breast cancer. Deep learning models have shown remarkable success in image-based medical diagnosis in recent years. This study focuses on improving breast tumor classification using fine-tuned hyperparameter training of deep learning models. By optimizing key parameters such as learning rate, batch size, and network architecture, the classification accuracy of models like ResNet, AlexNet, GoogleNet, and VGG is enhanced. The proposed approach leverages advanced techniques such as transfer learning, data augmentation, and hyperparameter optimization algorithms (Bayesian Optimization along with population-based training) to achieve robust performance on breast cancer datasets. The proposed method can achieve 98.46% accuracy while classifying breast cancer dataset. Experimental results demonstrate significant improvements in classification accuracy, precision, recall, and F1-score compared to conventional approaches, making the fine-tuned models more suitable for clinical applications. The findings suggest hyperparameter tuning in deep learning models is critical to improving model performance and generalization in breast tumor classification tasks.
