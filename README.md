@@ -30,6 +30,10 @@ Early detection programs and improved healthcare infrastructure are critical to 
 We propose a **modified ResNet-50 architecture** with hybrid Bayesian optimization that achieves state-of-the-art performance on breast ultrasound image classification, making it suitable for real-world clinical deployment.
 
 ---
+### ⚠️ Disclaimer
+**🧪 Note:** This codebase is experimental and was developed primarily for academic research purposes, not for production deployment.
+>It may contain messy or redundant code sections, as the focus was on model exploration, comparison, and achieving strong results for publication.
+---
 
 ## 🛠️ Methodology
 
@@ -134,7 +138,7 @@ Population-Based Training → Clinical Model → Medical Evaluation
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Proceed
 
 ### **Installation**
 ```bash
@@ -149,42 +153,6 @@ pip install tensorflow scikit-learn opencv-python matplotlib seaborn numpy panda
 kaggle datasets download -d aryashah2k/breast-ultrasound-images-dataset
 unzip breast-ultrasound-images-dataset.zip -d medical_data/
 ```
-
-### **Notebook Execution Order**
-
-#### **1. Data Analysis & Preprocessing**
-```bash
-# Medical imaging analysis and preprocessing
-jupyter notebook medical_data_analysis.ipynb
-```
-*Explore ultrasound image characteristics and clinical distributions*
-
-#### **2. Model Architecture & Training**
-```bash
-# Modified ResNet-50 implementation
-jupyter notebook enhanced_resnet_training.ipynb
-```
-*Implement dilated convolutions, SE blocks, and medical-optimized architecture*
-
-#### **3. Bayesian Optimization & PBT**
-```bash
-# Advanced hyperparameter optimization
-jupyter notebook bayesian_optimization_medical.ipynb
-```
-*Apply Bayesian optimization and Population-Based Training for medical imaging*
-
-#### **4. Clinical Performance Evaluation**
-```bash
-# Comprehensive medical evaluation
-jupyter notebook clinical_evaluation.ipynb
-```
-*Compare all models and generate clinical performance metrics*
-
-### **Quick Medical Deployment**
-1. **Download medical dataset** and place in `medical_data/` folder
-2. **Run notebooks sequentially** for complete medical AI pipeline
-3. **Evaluate clinical performance** with 98.46% accuracy achievement
-
 ---
 
 ## 📊 Medical Architecture Details
