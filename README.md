@@ -221,7 +221,7 @@ Medical AI contributions are welcome! Please ensure:
 
 - **Author:** Yash Maini
 - **Email:** mainiyash2@gmail.com
-- **Institution:**USAR, GGSIPU , New Delhi, India
+- **Institution:** USAR, GGSIPU , New Delhi, India
 - **Conference:** IEEE AI-Driven Smart Healthcare for Society 5.0, 2025
 - **Location:** Kolkata, India
 
